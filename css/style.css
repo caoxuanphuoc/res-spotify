@@ -1,0 +1,147 @@
+header {
+  background: black;
+  height: 1.4cm;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header img {
+  width: 100%;
+}
+
+header .menu {
+  width: 700px;
+  color: white;
+  font-weight: bold;
+}
+
+header .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 25px;
+}
+
+header .menu ul a:hover {
+  color: #098809;
+}
+
+.first {
+  font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+  height: 600px;
+  background: #f46ebe;
+  position: relative;
+}
+
+.first .tag {
+  font-weight: bold;
+  font-size: 15px;
+  color: #202f72;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.first .thank {
+  width: 500px;
+  font-size: 60px;
+  font-weight: bold;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  color: #202f72;
+}
+
+.first .content {
+  color: #202f72;
+  line-height: 40px;
+  width: 520px;
+  font-size: 25px;
+  position: absolute;
+  left: 100px;
+  top: 300px;
+}
+
+.first .ios {
+  position: absolute;
+  top: 450px;
+  left: 100px;
+}
+
+.first .android {
+  position: absolute;
+  top: 450px;
+  left: 300px;
+}
+
+.first .replay {
+  position: absolute;
+  top: 530px;
+  left: 100px;
+}
+
+.first .replay a {
+  color: #202f72;
+  text-decoration: underline;
+}
+
+.first .nen {
+  position: absolute;
+  right: 0;
+}
+
+.first .nen img {
+  width: 1000px;
+  height: 600px;
+}
+
+.second {
+  height: 600px;
+  background: #2941ab;
+  position: relative;
+}
+
+.second span {
+  color: #1ed760;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 70px;
+  left: 80px;
+}
+
+.second .cricle {
+  background: #1ed760;
+  border-radius: 50%;
+  position: absolute;
+  top: -100px;
+  left: 500px;
+  width: 200px;
+  height: 200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */

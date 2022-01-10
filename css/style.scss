@@ -1,0 +1,116 @@
+header{
+    background: black;
+    height: 1.4cm;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    img{
+        width: 100%;
+    }
+    .menu{
+        width: 700px;
+        color: white;
+       font-weight: bold;
+       ul{
+           display: flex;
+           justify-content: space-between;
+           font-size: 25px;
+           a:hover{
+               color: rgb(9, 136, 9);
+           }
+       }
+    }
+}
+.first{
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    height: 600px;
+    background: rgb(244, 110, 190);
+    position: relative; 
+    .tag{
+        font-weight: bold;
+        font-size: 15px;
+        color: rgb(32  , 47, 114);
+        position: absolute;
+        top: 50px;
+        left: 100px;
+    }
+    .thank{
+        width: 500px;
+        font-size: 60px;
+        font-weight: bold;
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        color: rgb(32  , 47, 114);
+    }
+    .content{
+        color: rgb(32  , 47, 114);
+        line-height: 40px;
+        width: 520px;
+        font-size: 25px;
+        position: absolute;
+        left: 100px;
+        top: 300px;
+    }
+    .ios{
+        position: absolute;
+        top: 450px;
+        left: 100px;
+    }
+    .android{
+        position: absolute;
+        top: 450px;
+        left: 300px;
+    }
+    .replay{
+        position: absolute;
+        top: 530px;
+        left: 100px;
+        a{
+            color: rgb(32  , 47, 114);
+            text-decoration: underline;
+        }
+    }
+    .nen{
+        position: absolute;
+        img{
+            width: 1000px;
+            height: 600px;
+        }
+        right: 0;
+    }
+}
+.second{
+    height: 600px;
+    background: rgb(41,65,171);
+    position: relative;
+    span{
+        color: rgb(30,215,96);
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        top: 70px;
+        left: 80px;
+    }
+    .cricle{
+        background: rgb(30,215,96) ;
+        border-radius: 50%;
+        position: absolute;
+        top: -100px;
+        left: 500px;
+        width: 200px;
+        height: 200px;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul,li{
+   list-style: none;
+}
